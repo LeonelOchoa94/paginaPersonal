@@ -1,0 +1,100 @@
+body {
+  background: rgb(0, 15, 9);
+  background: linear-gradient(90deg, rgba(0, 15, 9, 1) 0%, rgba(0, 18, 43, 1) 100%);
+}
+
+.navegador {
+  padding-top: 20px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  margin-bottom: 30px;
+  background: rgb(0, 15, 9);
+  background: linear-gradient(90deg, rgba(0, 15, 9, 1) 0%, rgba(0, 18, 43, 1) 100%);
+}
+
+.navegador li {
+  display: inline;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px;
+  margin-right: 5px;
+  font-family: "Roboto", sans-serif;
+}
+
+.navegador li a {
+  text-decoration: none;
+  color: aquamarine;
+  background-image: linear-gradient(currentColor, currentColor);
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 2px;
+  transition: all 0.5s ease-in-out;
+}
+
+.navegador li a:hover,
+a:focus {
+  color: #a30fa4;
+  font-weight: bold;
+  background-size: 100% 2px;
+}
+
+.intro {
+  margin-top: 100px;
+  display: flex;
+}
+
+.perfil {
+  border-radius: 30px;
+}
+
+.descripcion {
+  margin-left: 50px;
+  align-items: center;
+  align-self: center;
+}
+
+.descripcion h1 {
+  color: white;
+  text-align: center;
+}
+
+.conocimiento {
+  margin-top: 100px;
+  color: white;
+  text-align: center;
+}
+
+.conocimiento h1 {
+  font-size: 50px;
+  margin-bottom: 40px;
+}
+
+.lenguajes {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.lenguaje {
+  width: 33%;
+  border-radius: 50%;
+  position: relative;
+}
+
+.lenguaje img {
+  transition: 1s;
+}
+
+.lenguaje img:hover {
+  -webkit-transform: rotateY(180deg);
+  -webkit-transform-style: preserve-3d;
+  transform: rotateY(180deg);
+  transform-style: preserve-3d;
+}
